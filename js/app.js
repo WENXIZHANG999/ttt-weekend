@@ -1,10 +1,4 @@
 /*-------------------------------- Constants --------------------------------*/
-
-
-
-
-/*------------------------ Cached Element References ------------------------*/
-
 const X_CLASS = 'x'
 const CIRCLE_CLASS = 'circle'
 const win = [
@@ -17,6 +11,12 @@ const win = [
   [0, 4, 8],
   [2, 4, 6]
 ]
+
+
+
+/*------------------------ Cached Element References ------------------------*/
+
+
 const winMessage = document.getElementById('message')
 const squareElements = document.querySelectorAll('.square')
 const board = document.getElementById('message')
