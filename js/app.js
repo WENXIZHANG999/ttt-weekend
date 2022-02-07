@@ -78,7 +78,7 @@ function endGame(draw){
 
 	}else{
 		console.log(circleTurn)
-		winMessage.innerText = (circleTurn ? "O's" : "X's") + " Wins!"
+		winMessage.innerText = (circleTurn ? "X" : "O") + " Wins!"
 	}
 	//winMessageElements.classList.add('show')
 	squareElements.forEach( square => {
